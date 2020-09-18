@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JS Axios Demo</title>
+    <!-- Latest compiled and minified CSS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-3">JS Axios</h1>
+      <div class="panel panel-primary mb-5">
+        <div class="panel-heading mb-3 h3">GET Request All</div>
+        <div class="panel-body">
+          <div class="panel-body" id="getResultAll"></div>
+        </div>
+      </div>
+      
+      <div class="panel panel-primary">
+        <div class="panel-heading mb-3 h3">GET Request with Paramaters</div>
+        <div class="panel-body">
+          <div class="panel-body mb-5" id="getResultById"></div>
+          <img id="imageById" src="">
+        </div>
+      </div>
+
+      <div class="panel panel-primary">
+        <div class="panel-heading mb-3 h3">Test RwactDOM</div>
+        <div class="panel-body">
+          <div id="reactDomAxios"></div>
+        </div>
+      </div>
+
+      
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="test-api-2.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <!-- <script>
+      const api = axios.create({
+          baseURL: `https://bakergun-backend.herokuapp.com/api/v1/gameboard`,
+        });
+
+        class App extends React.Component {
+          state = {
+            images: [],
+          };
+
+          componentDidMount() {
+            api.get("/").then((res) => {
+              console.log(res.data);
+              this.setState({ images: res.data });
+            });
+          }
+
+          render(){
+            // return (
+            //   React.createElement('img',{src:"tst",className:"image-test"},  null)
+            //   )
+            return images.filter( item
+              
+            
+        
+            )
+              
+            
+           
+            
+            
+          }
+        }
+        // const test = <header className="App-header">
+        //         {this.state.images.map((images) => (
+        //           <img key={images.id} src={images.imageUrl} alt={images.name} />
+        //           // <h1 key={gameboard.id}>{gameboard.name}</h1>
+        //         ))}
+        //       </header>
+
+
+     // ReactDOM.render(test, document.getElementById('reactDomAxios')); 
+        ReactDOM.render(React.createElement(App, null), document.getElementById("reactDomAxios"));
+    </script> -->
+
+  </body>
+</html>
