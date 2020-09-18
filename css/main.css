@@ -87,6 +87,10 @@ body {
   margin-right: 40px;
 }
 
+.logo-in-topnav img {
+  width: 50px;
+}
+
 .hero-section {
   position: relative;
 }
