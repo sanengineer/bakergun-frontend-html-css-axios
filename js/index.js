@@ -1,5 +1,5 @@
 const api = axios.create({
-  baseURL: `http://localhost:8008/api/v1`,
+  baseURL: `https://bakergun-backend.herokuapp.com/api/v1`,
 });
 
 api.get("/images").then((res) => {
