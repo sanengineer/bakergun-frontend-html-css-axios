@@ -27,3 +27,21 @@ api.get("/images").then((res) => {
   //   console.log(rd);
   //   console.log(bgpage);
 });
+
+api.get("/players").then((res) => {
+  const rd2 = res.data;
+
+  quotes1 = rd2[0].avatar;
+  quotes2 = rd2[1].avatar;
+  quotes3 = rd2[2].avatar;
+
+  var elemid = function (id) {
+    return document.getElementById(id);
+  };
+
+  elemid("avatarManAstronoutLightSkin").src = quotes1;
+  elemid("avatarWomanShortHairLightSkin").src = quotes2;
+  elemid("avatarMonyet").src = quotes3;
+
+  console.log(rd2);
+});

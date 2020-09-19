@@ -82,6 +82,7 @@ api.get("/blog").then((res) => {
 
     ava.appendChild(avaimgsrc);
 
+    // Cek Respon Data
     // console.log(json);
   });
 });

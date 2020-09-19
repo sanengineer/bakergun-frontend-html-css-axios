@@ -22,6 +22,10 @@ body {
   font-family: "Rubik", sans-serif;
 }
 
+.loading {
+  display: none;
+}
+
 .san-btn-sm {
   width: 80px;
   text-align: center;
@@ -77,6 +81,8 @@ body {
 .carousel-item img {
   background: linear-gradient(173.35deg, #e8eff4 11.53%, #b2bec6 94.15%);
   border-radius: 30px;
+  height: 439px;
+  overflow: hidden;
 }
 
 .carousel-caption {
@@ -1100,7 +1106,7 @@ body {
 /** Blog Page **/
 
 .blog-content {
-  margin-top: 4rem;
+  margin-top: 2rem;
 
   .blog-hero-tron {
     background-image: url("https://res.cloudinary.com/dsv9w1ey3/image/upload/v1600271358/bakergun-images-cdn/blog-page-header-bg_gcncpa.png");
@@ -1109,7 +1115,7 @@ body {
     background-position: center;
 
     .blog-title-desc {
-      top: 8rem;
+      top: 10rem;
       color: white;
       position: relative;
       text-align: center;
@@ -1124,7 +1130,7 @@ body {
 
 .blog-cards-article {
   margin-top: 20px;
-  padding-top: 80px;
+  padding-top: 20px;
   margin-bottom: 20px;
   color: rgb(170, 170, 170);
 }
@@ -1211,4 +1217,117 @@ body {
 
 .author-name {
   color: #ffb800;
+}
+
+/** Skeleton Style **/
+.skeleton-card-feeds {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+  // padding: 50px 0 0;
+}
+
+.skeleton-san-post-card {
+  flex: 1 1 300px;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0 20px 40px;
+  min-height: 434.67px;
+  background: 50%;
+  background-size: cover;
+  border-radius: 10px;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    #323232 -8.57%,
+    #212121 46.28%,
+    #1d1d1d 100%
+  );
+  box-shadow: 4px 8px 14px 6px #1c1c1c26;
+
+  .skeleton-san-post-card-img {
+    object-fit: cover;
+    height: 200px;
+    background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  }
+}
+
+.skeleton-san-post-card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.skeleton-san-post-card-h2 {
+  height: 30px;
+  background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  border-radius: 20px;
+  // h2 {
+  //   font-size: 18px;
+  //   line-height: 1.35;
+  //   font-weight: 500;
+  // }
+  padding-bottom: 10px;
+}
+
+.skeleton-san-post-card-excerpt {
+  height: 26px;
+  background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  border-radius: 20px;
+  margin-top: 20px;
+  width: 160px;
+}
+
+.skeleton-san-post-card-footer {
+  display: flex;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: 58px;
+}
+
+.skeleton-san-ava {
+  // img {
+  //   width: 50px;
+  //   padding: 12px;
+  //   background-color: rgb(31, 31, 31);
+  //   background: radial-gradient(
+  //     106% 106% at 50% 50%,
+  //     #070707 0%,
+  //     rgba(11, 11, 11, 0) 100%
+  //   );
+  //   border-radius: 50%;
+  //   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  // }
+
+  height: 51px;
+  width: 51px;
+  background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 1px;
+  margin-left: 1.5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.skeleton-sn-authname-cat-rdtime {
+  margin-top: 10px;
+}
+
+.skeleton-author-name {
+  height: 12px;
+  background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  width: 100px;
+  border-radius: 30px;
+}
+.skeleton-date-post {
+  height: 12px;
+  background: linear-gradient(90deg, #0d0d0d 0%, rgba(7, 7, 7, 0) 106.33%);
+  width: 130px;
+  margin-top: 10px;
+  border-radius: 30px;
 }
