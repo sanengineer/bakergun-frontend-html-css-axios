@@ -1331,3 +1331,35 @@ body {
   margin-top: 10px;
   border-radius: 30px;
 }
+
+/** Contact Page **/
+.contact-page-section {
+  margin-top: 2rem;
+  padding-top: 4rem;
+  // height: 100vh;
+  -webkit-box-flex: 1;
+  flex: 1 0 auto;
+  position: relative;
+}
+.contact-page-bg {
+  position: relative;
+  padding: 65px 0;
+}
+
+.contact-page-text-box {
+  color: #fff;
+  // margin-top: 100px;
+  // margin-bottom: 60px;
+  h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.75rem;
+    width: 350px;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+}
