@@ -5,6 +5,11 @@
   }
 }
 
+.top-nav .nav-link {
+  padding: 0.25rem 1rem;
+  font-size: 14px;
+}
+
 * {
   -webkit-font-smoothing: auto;
 }
@@ -15,12 +20,11 @@ body {
 }
 
 .san-btn-sm {
-  width: 128px;
-  height: 44px;
+  width: 80px;
   text-align: center;
   vertical-align: middle;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 12px;
   margin-left: 40px;
 }
 
@@ -28,7 +32,7 @@ body {
   background: linear-gradient(182.19deg, #5da44b -9.83%, #167706 95.8%, #073100 195.48%);
   -webkit-box-shadow: 2px 8px 15px -5px rgba(46, 111, 31, 0.5);
           box-shadow: 2px 8px 15px -5px rgba(46, 111, 31, 0.5);
-  border-radius: 6px;
+  border-radius: 3px;
 }
 
 .san-btn-sm .san-green.nav-link {
@@ -44,7 +48,7 @@ body {
   background: linear-gradient(180deg, #ffa800 -28.31%, #c68200 71.68%, #976400 169.63%);
   -webkit-box-shadow: 2px 8px 15px -5px #624101;
           box-shadow: 2px 8px 15px -5px #624101;
-  border-radius: 6px;
+  border-radius: 3px;
 }
 
 .san-btn-sm .san-yellow.nav-link {
@@ -78,9 +82,8 @@ body {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   font-weight: bold;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  font-size: 14px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .logo-in-topnav {
@@ -88,7 +91,7 @@ body {
 }
 
 .logo-in-topnav img {
-  width: 50px;
+  width: 32px;
 }
 
 .hero-section {
@@ -121,7 +124,7 @@ body {
 }
 
 .header-hero-page {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -239,7 +242,7 @@ body {
 .about-us-title-2 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 3px;
   font-weight: bold;
 }
@@ -344,7 +347,7 @@ body {
 
 .features-title-2 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: bold;
@@ -403,7 +406,7 @@ body {
 
 .requirements-h1 {
   float: left;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   position: absolute;
   top: 8rem;
@@ -473,7 +476,7 @@ body {
 }
 
 .players-title-h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -537,14 +540,14 @@ body {
 
 .quotes-h2 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 .players-h2 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -708,7 +711,7 @@ body {
 }
 
 .newslet-h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
